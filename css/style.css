@@ -14,6 +14,12 @@ img{
     border-radius: 3px;
 }
 
+iframe{
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
 a{
     text-decoration: nome;
     color: inherit;
@@ -198,7 +204,60 @@ th, td {
 
 table{
     border: 1px solid #005c7b;
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
 }
+
+
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+}
+
+.table caption {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+}
+
+.table th, .table td {
+    font-size: 16px;
+    padding: 8px;
+    text-align: center;
+}
+
+.table thead th{ 
+    text-transform: uppercase;
+    background-color: #ddd;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.table tbody td:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
 
 .subtitulos{
     font-size: 1em;
@@ -214,9 +273,13 @@ width: 500px;
 /* Esquema del formulario */
 padding: 1em;
 border: 1px solid #CCC;
-border-radius: 1em;
+
+max-width: 100%;
+height: auto;
+border-radius: 3px;
 }
 
+ 
 ul {
 list-style: none;
 padding: 0;
@@ -246,6 +309,16 @@ box-sizing: border-box;
 
 /* Hacer coincidir los bordes del campo del formulario */
 border: 1px solid #999;
+
+max-width: 100%;
+height: auto;
+border-radius: 3px;
+}
+
+select{
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px; 
 }
 
 input:focus,
@@ -261,6 +334,10 @@ vertical-align: top;
 /* Proporcionar espacio para escribir texto */
 height: 5em;
 }
+
+
+
+
 
 footer{
     width: 100%;
@@ -385,3 +462,38 @@ footer p{
    }
 
  }
+
+
+ @media screen and (max-width: 600px) {
+    .table {
+        border: 0px;
+    }
+    .table caption {
+        font-size: 22px;
+    }
+    .table thead {
+        display: none;
+    }
+    .table tr {
+        margin-bottom: 8px;
+        border-bottom: 4px solid #ddd;
+        display: block;
+    }
+    .table th, .table td {
+        font-size: 12px;
+    }
+    .table td {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        text-align: right;
+    }
+    .table  td:last-child {
+        border-bottom: 0px;
+    }
+    .table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+}
