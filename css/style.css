@@ -358,6 +358,16 @@ footer p{
     margin: auto;
 }
 
+p::first-letter {
+    color: black;
+    font-family: 'Times New Roman', serif;
+    font-size: 42px;
+  }
+  
+  p::first-line {
+    color: #999;
+  }
+
 /*Hago responsive*/
 
 /*@900px*/
