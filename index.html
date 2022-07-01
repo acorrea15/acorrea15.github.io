@@ -5,6 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./image/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./image/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./image/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./image/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./image/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./image/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./image/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./image/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./image/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./image/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./image/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./image/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./image/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./image/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -13,10 +32,12 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="./css/styleACorrea.css">
+    <link rel="stylesheet" href="./css/styleACorrea.css" />
 
-    <script src="https://kit.fontawesome.com/3aca23b465.js" crossorigin="anonymous"></script>
-
+    <script
+      src="https://kit.fontawesome.com/3aca23b465.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>RollingBank</title>
 
@@ -27,280 +48,509 @@
   </head>
 
   <body>
-
-      
-    <header class="d-flex justify-content-center text-primary" style="background-color: rgb(200, 207, 250);">
-        <h1>Aquí va el Header</h1>
-        
-    </header> 
-
-
-    <!-- Inicio Navbar - Alfredo Correa -->
-    <nav class="navbar sticky-top navbar-expand-lg bg-navbarlg fs-5">  
-          <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./image/logo.png" alt="logo blog"  class="d-inline-block align-text-top" style="width: 8rem;">
-          </a>
-          <li class="nav-item me-4 my-1 justify-content-end li-login-small">
-            <button class="btn btn-sm btn-outline-info btn-login-small" type="button">Ingresar</button>
-          </li>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item me-4">
-                <a class="nav-link active fw-semibold underline" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item me-4">
-                <a class="nav-link underline" href="#">Acerca de Nosotros</a>
-              </li>
-              <li class="nav-item me-4">
-                <a class="nav-link underline" href="#">Contáctenos</a>
-              </li>
-              <li class="nav-item me-4">
-                <a class="nav-link underline" href="#">Suscribirse</a>
-              </li>
-              <li class="nav-item me-4 my-1 li-login-big">
-                <button class="btn btn-sm btn-outline-info btn-login" type="button">Ingresar</button>
-              </li>
-            </ul>
+    <header class="bg-headerlg">
+      <section class="py-1 text-center container">
+        <div class="row py-lg-2">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light fs-1 h1-header">RollingBank - Blog</h1>
+            <p class="lead text-muted p-header fs-6 p-header">
+              Hablamos de finanzas en tu mismo idioma.
+            </p>
           </div>
         </div>
+      </section>
+    </header>
 
-  
+    <!-- Inicio Navbar - Alfredo Correa -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-navbarlg fs-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./image/logo.png"
+            alt="logo blog"
+            class="d-inline-block align-text-top nav-logo"
+          />
+        </a>
+        <li class="nav-item me-4 my-1 justify-content-end li-login-small">
+          <button
+            class="btn btn-sm btn-outline-info btn-login-small"
+            type="button"
+          >
+            Ingresar
+          </button>
+        </li>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item me-4">
+              <a
+                class="nav-link active fw-semibold underline"
+                aria-current="page"
+                href="#"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link underline" href="#">Acerca de Nosotros</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link underline" href="#">Contáctenos</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link underline" href="#">Suscribirse</a>
+            </li>
+            <li class="nav-item me-4 my-1 li-login-big">
+              <button
+                class="btn btn-sm btn-outline-info btn-login"
+                type="button"
+              >
+                Ingresar
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <!-- Fin Navbar - Alfredo Correa -->
 
-    <main style="background-color: rgb(62, 252, 141)">
-      <h1>Este es el main (COLOR VERDE)</h1>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="./image/slider2Criptomonedas.jpg" class="d-block w-100 " alt="sliderAhorro" styl e="height: 950px;">
-          <div class="carousel-caption d-none d-md-block text-white shadow-lg">
-            <h2 class="h-white-shadow">Finanzas personales  <i class="fa fa-check"></i></h2>
-            <h5 class="h-white-shadow">Aprende a Comprar, Ahorrar e Invertir <i class="fa-solid fa-hand-holding-dollar"></i></h5> 
+    <!-- Inicio página principal - Alfredo Correa -->
+    <main class="bg-mainlg">
+      <!-- Inicio carousel -->
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="./image/slider1Ahorro.jpeg"
+              class="d-block w-100"
+              alt="sliderAhorro"
+              styl
+              e="height: 950px;"
+            />
+            <div
+              class="carousel-caption d-none d-md-block text-white shadow-lg"
+            >
+              <h2 class="h-white-shadow">
+                Finanzas personales <i class="fa fa-check"></i>
+              </h2>
+              <h5 class="h-white-shadow">
+                Aprende a Comprar, Ahorrar e Invertir
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="./image/slider2Cripto.png"
+              class="d-block w-100"
+              alt="sliderCriptomonedas"
+              styl
+              e="height: 950px;"
+            />
+            <div
+              class="carousel-caption d-none d-md-block text-white shadow-lg"
+            >
+              <h2 class="h-white-shadow">
+                Criptomonedas <i class="fa fa-check"></i>
+              </h2>
+              <h5 class="h-white-shadow">
+                Nuestra misión es educar sobre el potencial que ofrece la
+                tecnología blockchain y criptomonedas
+                <i class="fa-brands fa-bitcoin"></i>
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./image/slider3Inversiones.jpg"
+              class="d-block w-100"
+              alt="sliderInersiones"
+              styl
+              e="height: 950px;"
+            />
+            <div
+              class="carousel-caption d-none d-md-block text-white shadow-lg"
+            >
+              <h2 class="h-white-shadow">
+                Inversiones <i class="fa fa-check"></i>
+              </h2>
+              <h5 class="h-white-shadow">
+                Potenciá tus ahorros con las mejores recomendaciones
+                <i class="fa-solid fa-sack-dollar"></i>
+              </h5>
+            </div>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="./image/slider2Criptomonedas.jpg" class="d-block w-100" alt="sliderCriptomonedas" styl e="height: 950px;">
-          <div class="carousel-caption d-none d-md-block text-white shadow-lg">
-            <h2 class="h-white-shadow">Criptomonedas <i class="fa fa-check"></i></h2>
-            <h5 class="h-white-shadow">Nuestra misión es educar sobre el potencial que ofrece la tecnología blockchain y criptomonedas <i class="fa-brands fa-bitcoin"></i></h5>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./image/slider2Criptomonedas.jpg" class="d-block w-100" alt="sliderInersiones" styl e="height: 950px;">
-          <div class="carousel-caption d-none d-md-block text-white shadow-lg">
-            <h2 class="h-white-shadow">Inversiones <i class="fa fa-check"></i></h2>
-            <h5 class="h-white-shadow">Potenciá tus ahorros con las mejores recomendaciones <i class="fa-solid fa-sack-dollar"></i></h5>
-          </div>
-        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+      <!-- Fin carousel -->
 
-      <div class="container"> 
-      <div class="border border-success mt-5 row">
-        <div class="col-md-12 col-lg-9">
-            
-            
-            <section class="border border-danger mt-5 row" style="background-color: rgb(122, 218, 247)">
-              
-                <article class="col-sm-12 col-md-6  col-lg-4">
-                  <h1>Section1 - Article1</h1> 
-                  <div class="card" >
-                    <img src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </article> 
-              
-                <article class="col-sm-12 col-md-6  col-lg-4">
-                  <h1>Section1 - Article2</h1> 
-                  <div class="card" >
-                    <img src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </article>  
-              
-                <article class="col-sm-12 col-md-6  col-lg-4">
-                  <h1>Section1 - Article3</h1> 
-                  <div class="card" >
-                    <img src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </article> 
-                
-                <article class="col-sm-12 col-md-6  col-lg-4">
-                  <h1>Section1 - Article4</h1> 
-                  <div class="card" >
-                    <img src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </article>  
-
-                <article class="col-sm-12 col-md-6  col-lg-4">
-                  <h1>Section1 - Article5</h1> 
-                  <div class="card" >
-                    <img src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </article>  
-
-                <article class="col-sm-12 col-md-6  col-lg-4">
-                  <h1>Section1 - Article6</h1> 
-                  <div class="card" >
-                    <img src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </article>  
-
-                <article class="col-sm-12 col-md-6  col-lg-4">
-                  <h1>Section1 - Article7</h1>
-                  <div class="card" >
-                    <img src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div> 
-                </article>  
-
-                <article class="col-sm-12 col-md-6  col-lg-4">
-                  <h1>Section1 - Article8</h1> 
-                  <div class="card" >
-                    <img src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </article>  
-            
-              </section>
-
-              <section class="border border-danger mt-5 row" style="background-color: rgb(40, 72, 252)">
-                <article class="col-sm-12 col-md-6  col-lg-6">
-                  <h1>Section2 - Article1</h1>
-                  <div class="card" >
-                    <img src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </article>  
-
-                <article class="col-sm-12 col-md-6  col-lg-6">
-                  <h1>Section2 - Article2</h1>
-                  <div class="card" >
-                    <img src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </article>  
-
-                <article class="col-sm-12 col-md-6  col-lg-6">
-                  <h1>Section2 - Article3</h1>
-                  <div class="card" >
-                    <img src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </article>  
-
-              </section>
-              <br>
-        
-        </div>  
-        
-        <div class="col-md-12 col-lg-3">
-          <aside style="background-color: rgb(253, 147, 227)">
-              <h1>Este es el Aside  (COLOR ROSA)</h1>
-              <marquee behavior="alternate" direction="" >Aquí</marquee>
-              <marquee behavior="alternate" direction="" >Publicidad</marquee>
-              <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis illo dolore laborum. Eaque reprehenderit, quibusdam fugit, accusamus impedit iste molestiae, quo pariatur dolorum numquam magnam similique sed laboriosam quod molestias!
-              Soluta aliquam obcaecati architecto, illo quidem exercitationem illum eum eaque magnam tenetur cupiditate aspernatur impedit amet vero repellendus quaerat nemo? Dolorem fugiat quae placeat facere. Unde aspernatur fuga minus adipisci?
-              Deserunt aliquam et laudantium voluptas necessitatibus, asperiores, similique pariatur doloribus optio id numquam? Incidunt quos vitae sed nihil, eligendi dolorum soluta architecto. Architecto minima repellendus quis temporibus placeat eum. Ducimus.
-              Corporis provident numquam suscipit, reiciendis adipisci eius vitae asperiores delectus officia autem culpa repudiandae, at beatae similique enim eveniet exercitationem voluptate obcaecati rem qui fuga sunt praesentium molestiae soluta. Voluptas.</h3>
-          </aside>
-        </div>
-
-        <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-center">
-            <li class="page-item">
-              <a class="page-link">Anterior</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">4</a></li>
-            <li class="page-item"><a class="page-link" href="#">...</a></li>
-            <li class="page-item"><a class="page-link" href="#">120</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#">Siguiente</a>
-            </li>
-          </ul>
-        </nav>
-
-      </main>
-
-      </div>     
-      </div>
 
       
+      <div class="container">
+      <!-- Inicio - Formulario de búsqueda -->
+      <div class=aside-form-buscar-sm>
+        <form class="d-flex mt-1" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar artículos" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Buscar</button>
+        </form>
+      </div>
+      <!-- Fin - Formulario de búsqueda -->
 
-    <footer style="background-color: rgb(252, 203, 69)">
-        <h1>Este es el footer</h1>
-    </footer>
+        <div class="mt-1 row">
+
+          <div class="col-md-12 col-lg-9">
+            <section
+              class="mt-5 row"
+            >
+              <article class="col-sm-12 col-md-6 col-lg-4">
+                <!-- <h1>Section1 - Article1</h1> -->
+                <div class="card">
+                  <img
+                    src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-sm-12 col-md-6 col-lg-4">
+                <!-- <h1>Section1 - Article2</h1> -->
+                <div class="card">
+                  <img
+                    src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-sm-12 col-md-6 col-lg-4">
+                <!-- <h1>Section1 - Article3</h1> -->
+                <div class="card">
+                  <img
+                    src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-sm-12 col-md-6 col-lg-4">
+                <!-- <h1>Section1 - Article4</h1> -->
+                <div class="card">
+                  <img
+                    src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-sm-12 col-md-6 col-lg-4">
+                <!-- <h1>Section1 - Article5</h1> -->
+                <div class="card">
+                  <img
+                    src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-sm-12 col-md-6 col-lg-4">
+               <!--  <h1>Section1 - Article6</h1> -->
+                <div class="card">
+                  <img
+                    src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-sm-12 col-md-6 col-lg-4">
+                <h1>Section1 - Article7</h1>
+                <div class="card">
+                  <img
+                    src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-sm-12 col-md-6 col-lg-4">
+                <h1>Section1 - Article8</h1>
+                <div class="card">
+                  <img
+                    src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </article>
+            </section>
+
+            <section
+              class="mt-5 row"
+            >
+              <article class="col-sm-12 col-md-6 col-lg-6">
+                <h1>Section2 - Article1</h1>
+                <div class="card">
+                  <img
+                    src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-sm-12 col-md-6 col-lg-6">
+                <h1>Section2 - Article2</h1>
+                <div class="card">
+                  <img
+                    src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-sm-12 col-md-6 col-lg-6">
+                <h1>Section2 - Article3</h1>
+                <div class="card">
+                  <img
+                    src="https://gustavomirabalcastro.com/wp-content/uploads/2020/11/Gustavo-Mirabal-Castro-Educacion-Financiera-2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </article>
+            </section>
+            <br />
+          </div>
+
+           <!-- Inicio - ASIDE --> 
+          <div class="col-md-12 col-lg-3">
+            <aside>
+
+              <!-- Inicio - Formulario de búsqueda -->
+              <div class=aside-form-buscar-lg>
+                <form class="d-flex mt-5" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar artículos" aria-label="Search">
+                  <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                </form>
+              </div>
+              <!-- Fin - Formulario de búsqueda -->
+              
+              <!-- Inicio - Lista de Categorías -->
+              <div class="list-group mt-5">
+                <div class="list-group-item list-group-item-action active" aria-current="true">
+                  <h5>Categorías</h5>
+                </div>
+                <a href="#" class="list-group-item list-group-item-action mb-2">
+                  <img src="./image/asideCategoriaAhorro.jpg" class="img-fluid" alt="Categoría ahorro"> 
+                  <div class="bg-aside-category ">Aprender a ahorrar</div> 
+                </a>
+                <a href="#" class="list-group-item list-group-item-action mb-2">
+                  <img src="./image/asideCategoriaInversiones.jpg" class="img-fluid" alt="Categoría inverir"> 
+                  <div class="bg-aside-category ">Inversiones</div> 
+                </a>
+                <a href="#" class="list-group-item list-group-item-action mb-2">
+                  <img src="./image/asideCategoriaCripto.jpg" class="img-fluid" alt="Categoría criptomonedas"> 
+                  <div class="bg-aside-category ">Criptomonedas</div> 
+                </a>
+                <a href="#" class="list-group-item list-group-item-action mb-2">
+                  <img src="./image/AsideCategoriaAudiolibos.jpg" class="img-fluid" alt="Categoría audiolibros"> 
+                  <div class="bg-aside-category ">Audilibros</div> 
+                </a>
+                
+              </div>
+              <!-- FIN - Lista de Categorías -->
+
+              <!-- Inicio - Espacio publicitario -->
+              <div class="container-fluid aside-publicidad mt-5"> 
+                <img src="./image/titanium.png" alt="publicidad titanium mt-1" class="img-fluid">
+                <ins class="adsbygoogle ms-2 mt-3" style="display: block; height: 600px;" data-ad-client="ca-pub-4090153222985235" data-ad-slot="4740737933" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_19_expand" style="border: none; height: 600px; width: 263px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_19_anchor" style="border: none; height: 600px; width: 263px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block; overflow: visible;"><iframe id="aswift_19" name="aswift_19" style="left:0;position:absolute;top:0;border:0;width:263px;height:600px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="263" height="600" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?us_privacy=1---&amp;client=ca-pub-4090153222985235&amp;output=html&amp;h=600&amp;slotname=4740737933&amp;adk=3144337459&amp;adf=3235933448&amp;pi=t.ma~as.4740737933&amp;w=263&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1656623709&amp;rafmt=1&amp;psa=1&amp;format=263x600&amp;url=https%3A%2F%2Fwww.contextotucuman.com%2F&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=4&amp;wgl=1&amp;adsid=ChEI8JP1lQYQme7g4vSp9tmdARI9AKPymfqn25iOtR8Ghj8jRz6tdz24BobsP5CZV5pR-tAY6zjImXvQ5iNGVumn8JzQtB0c9OT2CdKjxqFapQ&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTAzLjAuNTA2MC42NiIsW10sbnVsbCxudWxsLCI2NCIsW1siLk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXSxbIkdvb2dsZSBDaHJvbWUiLCIxMDMuMC41MDYwLjY2Il0sWyJDaHJvbWl1bSIsIjEwMy4wLjUwNjAuNjYiXV0sZmFsc2Vd&amp;dt=1656623702725&amp;bpp=6&amp;bdt=1668&amp;idt=7069&amp;shv=r20220628&amp;mjsv=m202206270101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D26825edefe8480d6%3AT%3D1652276470%3AS%3DALNI_Ma0liWVnyeRBKA8Aecc1EiDOnHLCA&amp;gpic=UID%3D000003bd4b139f90%3AT%3D1649185314%3ART%3D1656623703%3AS%3DALNI_Mba3scjzElx-3dlYjmM7POajogmsw&amp;prev_fmts=728x60%2C0x0%2C360x60%2C425x280%2C425x344%2C425x280%2C425x280%2C387x280%2C387x280%2C387x280%2C1730x829%2C728x90%2C387x280%2C387x280&amp;nras=3&amp;correlator=7889973279903&amp;frm=20&amp;pv=1&amp;ga_vid=1345531575.1640868411&amp;ga_sid=1656623703&amp;ga_hid=442477457&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1.1&amp;dmc=8&amp;adx=1173&amp;ady=157&amp;biw=1730&amp;bih=829&amp;scr_x=0&amp;scr_y=545&amp;eid=44759876%2C44759927%2C44759842%2C31068106%2C31067983%2C31068195%2C21066432%2C42531606%2C42531608&amp;oid=2&amp;psts=AGkb-H8JNry5bpsDmM5xeLZeBvUqDRkjplqP-iw8D0nSuAm-V_fsdEOOusSVXa-Gl1tOO3pA4I5vLNDzmw6f0f0&amp;pvsid=3770010427678121&amp;tmod=744422724&amp;uas=3&amp;nvt=1&amp;eae=0&amp;fc=896&amp;brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1040%2C1745%2C829&amp;vis=1&amp;rsz=%7C%7CEe%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;jar=2022-06-30-21&amp;ifi=20&amp;uci=a!k&amp;fsb=1&amp;xpc=fhBE4fLSgu&amp;p=https%3A//www.contextotucuman.com&amp;dtd=7122" data-google-container-id="a!k" data-google-query-id="CNmfyp6M1vgCFcrf5wMdxCsFXw" data-load-complete="true"></iframe></ins></ins></ins>
+              </div>
+              <!-- Fin - Espacio publicitario --> 
+              
+            </aside>
+          </div>
+          <!-- Inicio - ASIDE --> 
+
+          <!--Inico - Paginación -->
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <a class="page-link">Anterior</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li class="page-item"><a class="page-link" href="#">6</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Siguiente</a>
+              </li>
+            </ul>
+          </nav>
+          <!--Inico - Paginación -->
+
+        </div>
+      </div>
+    </main>
+    <!-- Fin página principal - Alfredo Correa -->
 
     
+    <footer style="background-color: rgb(252, 203, 69)">
+      <h1>Este es el footer</h1>
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script
@@ -308,5 +558,9 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Código de instalación Cliengo para rollingbot.com.ar --> 
+    <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/61f5fd2cf59d6e002ab65b35/61f5fd3bf59d6e002ab65b4c.js?platform=view_installation_code'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script>
+
   </body>
 </html>
