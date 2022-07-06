@@ -91,6 +91,53 @@
     display: none;
 }
 
+.date {
+    color: #999;
+}
+
+
+/* Inicio - Social Icons */
+/* .right-area{ float: right;  } */
+ul.social-icons{ color: #666; }
+ul.social-icons > li > a{ padding-left:  5px; }
+ul.social-icons > li > a > i{ margin-right: 10px; }
+
+.ul-social-icons {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.li-social-icons {
+    list-style: none;
+    display: inline-block;
+}
+
+.a-social-icons{
+    color: #3ca3f7;
+    text-decoration: none;
+}
+/* Fin - Social Icons */
+
+.margin-mas-populares{
+    border-top: 4px solid rgb(3, 3, 3);
+    margin-left: -12px;
+    padding-top: 1px;
+}
+
+.img-entrada-main{    
+    display: block;
+    margin: 0px auto;
+}
+
+.container-iframe-video-md{
+    display: none;
+}
+
 @media(max-width: 992px){
     .nav-link{text-align: center;}
     .underline:hover:after{
@@ -119,6 +166,14 @@
     }
 
     .aside-form-buscar-sm{
+        display: block;
+    }
+
+    .container-iframe-video-lg{
+        display: none;
+    }
+
+    .container-iframe-video-md{
         display: block;
     }
 
