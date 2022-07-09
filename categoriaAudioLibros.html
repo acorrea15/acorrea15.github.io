@@ -107,274 +107,123 @@
   </head>
 
   <body>
-    <header class="bg-headerlg">
-      <section class="py-1 text-center container">
-        <div class="row py-lg-2">
-          <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light fs-1 h1-header">RollingBank - Blog</h1>
-            <p class="lead text-muted p-header fs-6 p-header">
-              Hablamos de finanzas en tu mismo idioma.
-            </p>
-          </div>
-        </div>
-      </section>
-    </header>
-
-    <!-- Inicio Navbar - Alfredo Correa -->
-    <nav class="navbar sticky-top navbar-expand-lg bg-navbarlg fs-5">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="./image/logo.png"
-            alt="logo blog"
-            class="d-inline-block align-text-top nav-logo"
-          />
-        </a>
-        <li class="nav-item me-4 my-1 justify-content-end li-login-small">
-          <button
-            class="btn btn-sm btn-outline-info btn-login-small"
-            type="button"
-          >
-            Ingresar
-          </button>
-        </li>
+   <!-- Inicio Navbar - Alfredo Correa -->
+   <nav class="navbar sticky-top navbar-expand-lg bg-navbarlg fs-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img
+          src="./image/logo.png"
+          alt="logo blog"
+          class="d-inline-block align-text-top nav-logo"
+        />
+      </a>
+      <li class="nav-item me-4 my-1 justify-content-end li-login-small">
         <button
-          class="navbar-toggler"
+          class="btn btn-sm btn-outline-info btn-login-small"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          Ingresar
         </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item me-4">
-              <a
-                class="nav-link active fw-semibold underline"
-                aria-current="page"
-                href="./index.html"
-                >Inicio</a
-              >
-            </li>
-            <li class="nav-item me-4">
-              <a class="nav-link underline" href="#">Acerca de Nosotros</a>
-            </li>
-            <li class="nav-item me-4">
-              <a class="nav-link underline" href="#">Contáctenos</a>
-            </li>
-            <li class="nav-item me-4">
-              <a
-                class="nav-link underline"
-                href="#"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                >Suscribirse</a
-              >
-            <!-- Trigger modal -->
-            </li>
-            <li class="nav-item me-4 my-1 li-login-big">
-              <button
-                class="btn btn-sm btn-outline-info btn-login"
-                type="button"
-              >
-                Ingresar
-              </button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">¡Suscríbete!</h5>
+      </li>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item me-4">
+            <a
+              class="nav-link active fw-semibold underline"
+              aria-current="page"
+              href="./index.html"
+              >Inicio</a
+            >
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link underline" href="#">Acerca de Nosotros</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link underline" href="#">Contáctenos</a>
+          </li>
+          <li class="nav-item me-4">
+            <a
+              class="nav-link underline"
+              href="#"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              >Suscribirse</a
+            >
+          <!-- Trigger modal -->
+          </li>
+          <li class="nav-item me-4 my-1 li-login-big">
             <button
+              class="btn btn-sm btn-outline-info btn-login"
               type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            Ingrese su correo electrónico para recibir notificaciones
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label"
-                  ><strong>Dirección de e-mail:</strong> </label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  maxlength="75"
-                />
-                <div id="emailHelp" class="form-text">
-                  Nunca compartiremos su e-mail.
-                </div>
+            >
+              Ingresar
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Modal -->
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">¡Suscríbete!</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          Ingrese su correo electrónico para recibir notificaciones
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                ><strong>Dirección de e-mail:</strong> </label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                maxlength="75"
+              />
+              <div id="emailHelp" class="form-text">
+                Nunca compartiremos su e-mail.
               </div>
-              <button type="submit" class="btn btn-primary">Suscribirse</button>
-            </form>
-          </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Suscribirse</button>
+          </form>
         </div>
       </div>
     </div>
-    <!-- Fin Navbar - Alfredo Correa -->
+  </div>
+  <!-- Fin Navbar - Alfredo Correa -->
 
     <!-- Inicio página principal - Alfredo Correa -->
     <main class="bg-mainlg">
-      <!-- Inicio carousel -->
-      <div
-        id="carouselExampleDark"
-        class="carousel carousel-dark slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="3000">
-            <img
-              src="./image/slider1Ahorro.jpeg"
-              class="d-block w-100"
-              alt="sliderAhorro"
-              styl
-              e="height: 950px;"
-            />
-            <div
-              class="carousel-caption d-none d-md-block text-white shadow-lg"
-            >
-              <h2 class="h-white-shadow">
-                Finanzas personales <i class="fa fa-check"></i>
-              </h2>
-              <h5 class="h-white-shadow">
-                Aprende a Comprar, Ahorrar e Invertir
-                <i class="fa-solid fa-hand-holding-dollar"></i>
-              </h5>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img
-              src="./image/slider2Cripto.png"
-              class="d-block w-100"
-              alt="sliderCriptomonedas"
-              styl
-              e="height: 950px;"
-            />
-            <div
-              class="carousel-caption d-none d-md-block text-white shadow-lg"
-            >
-              <h2 class="h-white-shadow">
-                Criptomonedas <i class="fa fa-check"></i>
-              </h2>
-              <h5 class="h-white-shadow">
-                Nuestra misión es educar sobre el potencial que ofrece la
-                tecnología blockchain y criptomonedas
-                <i class="fa-brands fa-bitcoin"></i>
-              </h5>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="4000">
-            <img
-              src="./image/slider3Inversiones.jpg"
-              class="d-block w-100"
-              alt="sliderInersiones"
-              styl
-              e="height: 950px;"
-            />
-            <div
-              class="carousel-caption d-none d-md-block text-white shadow-lg"
-            >
-              <h2 class="h-white-shadow">
-                Inversiones <i class="fa fa-check"></i>
-              </h2>
-              <h5 class="h-white-shadow">
-                Potenciá tus ahorros con las mejores recomendaciones
-                <i class="fa-solid fa-sack-dollar"></i>
-              </h5>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img
-              src="./image/slider4App.jpg"
-              class="d-block w-100"
-              alt="sliderApp"
-              styl
-              e="height: 950px;"
-            />
-            <div
-              class="carousel-caption d-none d-md-block text-white shadow-lg"
-            >
-              <h2 class="h-white-shadow">
-                Rbank App <i class="fa fa-check"></i>
-              </h2>
-              <h5 class="h-white-shadow">
-                ¡Descarga ahora nuestra app para mejorar tus finanzas!
-                <i class="fa-solid fa-mobile"></i>
-              </h5>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!-- Fin carousel -->
-
       <div class="container">
         <!-- Inicio - Formulario de búsqueda -->
         <div class="aside-form-buscar-sm">
@@ -395,115 +244,22 @@
         <div class="mt-1 row">
           <div class="col-md-12 col-lg-9">
             <section class="mt-5 row">
-              <article class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                <!-- <h1>Section1 - Article1</h1> -->
-                <div class="card h-100">
-                  <img
-                    src="./image/EducacionFinanciera1.png"
-                    class="card-img-top"
-                    alt="EducacionFinanciera1"
-                  />
-                  <div class="card-body">
-                    <p class="date mb-1"><em>Sábado 2 de julio de 2022</em></p>
-                    <p class="article-category mt-1">
-                      <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar
-                    </p>
-                    <div>
-                      <ul class="right-area social-icons ul-social-icons">
-                        <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
-                            ><i class="fa-solid fa-share-nodes"></i>Compartir</a
-                          >
-                        </li>
-                        <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
-                            ><i class="fa-regular fa-heart"></i>30</a
-                          >
-                        </li>
-                        <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
-                            ><i class="fa-regular fa-message"></i>05</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                    <h5 class="card-title">
-                      La importancia de la educación financiera para vos y tu
-                      entorno
-                    </h5>
-                    <p class="card-text">
-                      La educación financiera tiene como propósito contribuir a
-                      establecer hábitos y enseñarte a tomar las mejores
-                      decisiones sobre tus gastos, ahorro e inversión...
-                    </p>
-                    <a
-                      href="./EntradaImportEducFinanc.html"
-                      class="btn btn-primary"
-                      >Ver más</a
-                    >
-                  </div>
-                </div>
-              </article>
+              <h4>Categoría Audiolibros</h4>
 
-              <article class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                <!-- <h1>Section1 - Article2</h1> -->
-                <div class="card h-100">
-                  <img
-                    src="./image/Article2EstafaPiramidal.png"
-                    class="card-img-top"
-                    alt="EstafaPiramidal1"
-                  />
-                  <div class="card-body">
-                    <p class="date mb-1"><em>Viernes 1 de julio de 2022</em></p>
-                    <p class="article-category mt-1">
-                      <i class="fa-solid fa-people-robbery"></i> Prevención de
-                      fraudes
-                    </p>
-                    <div>
-                      <ul class="right-area social-icons ul-social-icons">
-                        <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
-                            ><i class="fa-solid fa-share-nodes"></i>Compartir</a
-                          >
-                        </li>
-                        <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
-                            ><i class="fa-regular fa-heart"></i>09</a
-                          >
-                        </li>
-                        <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
-                            ><i class="fa-regular fa-message"></i>02</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                    <h5 class="card-title">
-                      Estafa piramidal y esquema Ponzi: cómo evitar estas
-                      estafas
-                    </h5>
-                    <p class="card-text">
-                      Es necesario conocer el funcionamiento de una estafa
-                      piramidal, para evitar caer en la trampa del telar de la
-                      abundancia o en los esquemas Ponzi...
-                    </p>
-                    <a href="./EntradaEstafaPiramidal.html" class="btn btn-primary">Ver más</a>
-                  </div>
-                </div>
-              </article>
-
-              <article class="col-sm-12 col-md-6 col-lg-4 mb-5">
+              <article class="col-sm-12 col-md-6 col-lg-6 mb-5">
                 <!-- <h1>Section1 - Article3</h1> -->
                 <div class="card h-100">
-                  <img
-                    src="./image/Article3Criptomoneda.png"
-                    class="card-img-top"
-                    alt="Criptomonedas"
-                  />
+                  <div>
+                    <audio
+                      class="container-fluid mt-2"
+                      src="./mp3/InvertirEnTiMismo.mp3"
+                      controls
+                    ></audio>
+                  </div>
                   <div class="card-body">
-                    <p class="date mb-1"><em>Jueves 30 de junio de 2022</em></p>
+                    <p class="date mb-1"><em>Martes 7 de junio de 2022</em></p>
                     <p class="article-category mt-1">
-                      <i class="fa-brands fa-bitcoin"></i> Criptomonedas
+                      <i class="fa-solid fa-book"></i> Audiolibros
                     </p>
                     <div>
                       <ul class="right-area social-icons ul-social-icons">
@@ -514,43 +270,49 @@
                         </li>
                         <li class="li-social-icons">
                           <a href="#" class="a-social-icons"
-                            ><i class="fa-regular fa-heart"></i>23</a
+                            ><i class="fa-regular fa-heart"></i>24</a
                           >
                         </li>
-                        <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
-                            ><i class="fa-regular fa-message"></i>01</a
-                          >
-                        </li>
+                        <!-- <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li> -->
                       </ul>
                     </div>
-                    <h5 class="card-title">
-                      ¿Qué son y para qué sirven las Criptomonedas?
-                    </h5>
+                    <h5 class="card-title">Invertir en ti mismo</h5>
                     <p class="card-text">
-                      La criptomoneda es una moneda virtual o criptodivisa. Es
-                      dinero digital que utiliza una criptografía fuerte para
-                      asegurar las transacciones, controlar...
+                      Crea riqueza en vez de acumular dinero. ¿Por qué
+                      invertirías tu tiempo y energía trabajando para una
+                      compañía, mientras que podrías fácilmente enfocarte en
+                      hacerte rico en su lugar? ¿Crees que estás demasiado
+                      quebrado, que no tienes el conocimiento o que no eres lo
+                      suficientemente inteligente para hacerte rico? Déjame
+                      ayudarte a romper todas esas barreras de la duda y
+                      mostrarte los pasos hacia la construcción de la riqueza
+                      verdadera. Finalmente vive la vida que siempre quisiste,
+                      con la libertad de ir y hacer lo que quieras, sin nadie
+                      que te diga qué hacer. Una vida en la que eres tu propio
+                      jefe, lo que te permitiría tener tantas vacaciones como
+                      quieras. Comenzamos con un cambio de mentalidad y un plan
+                      de acción, para luego terminar con la gestión de tu
+                      riqueza.
                     </p>
-                    <a href="#" class="btn btn-primary">Ver más</a>
+                    <p><strong>Autor:</strong> Giovanni Rigters</p>
                   </div>
                 </div>
               </article>
 
-              <article class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                <!-- <h1>Section1 - Article4</h1> -->
+              <article class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                <!-- <h1>Section1 - Article3</h1> -->
                 <div class="card h-100">
-                  <img
-                    src="./image/Article4FinanzasPersonales.jpg"
-                    class="card-img-top"
-                    alt="FinanzasPersonales"
-                  />
+                  <div>
+                    <audio
+                      class="container-fluid mt-2"
+                      src="./mp3/PADRE_RICO_PADRE-POBRE.mp3"
+                      controls
+                    ></audio>
+                  </div>
                   <div class="card-body">
-                    <p class="date mb-1">
-                      <em>Miércoles 29 de junio de 2022</em>
-                    </p>
+                    <p class="date mb-1"><em>Lunes 6 de junio de 2022</em></p>
                     <p class="article-category mt-1">
-                      <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar
+                      <i class="fa-solid fa-book"></i> Audiolibros
                     </p>
                     <div>
                       <ul class="right-area social-icons ul-social-icons">
@@ -561,42 +323,49 @@
                         </li>
                         <li class="li-social-icons">
                           <a href="#" class="a-social-icons"
-                            ><i class="fa-regular fa-heart"></i>42</a
+                            ><i class="fa-regular fa-heart"></i>33</a
                           >
                         </li>
-                        <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
-                            ><i class="fa-regular fa-message"></i>02</a
-                          >
-                        </li>
+                        <!-- <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li> -->
                       </ul>
                     </div>
-                    <h5 class="card-title">
-                      ¿Qué son las finanzas personales y cómo pueden ayudarte?
-                    </h5>
+                    <h5 class="card-title">Padre Rico, Padre Pobre</h5>
                     <p class="card-text">
-                      Administrar tu dinero es un paso necesario para ordenar
-                      tus gastos y así poder alcanzar todas tus metas. Descubre
-                      qué son las finanzas personales. Tener...
+                      El estudio del libro es parte de la filosofía de Rich Dad:
+                      leer, discutir, estudiar... y discutir de nuevo. Esta
+                      edición aniversario incluye nueve sesiones de estudio para
+                      usar como guías conforme lees, relees, discutres y
+                      estudias este libro con tus amigos y familiares. Derriba
+                      el mito de que es necesario tener un ingreso elevado para
+                      hacerse rico, especialmente en un mundo donde la
+                      tecnología, los robots y la economía global están
+                      cambiando las reglas del juego. Enseña por qué la
+                      adquisición y la construcción de activos puede ser mucho
+                      más importante para el futuro que un gran cheque de pago,
+                      así como las ventajas fiscales que los inversionistas y
+                      los dueños de negocios disfrutan. Desafía la creencia de
+                      que una casa es un activo, como miles de personas
+                      aprendieron.
                     </p>
-                    <a href="./EntradaQueSonFinanzasPersonales.html" class="btn btn-primary">Ver más</a>
+                    <p><strong>Autr:</strong> Robert T. Kiyosaki</p>
                   </div>
                 </div>
               </article>
 
-              <article class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                <!-- <h1>Section1 - Article5</h1> -->
+              <article class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                <!-- <h1>Section1 - Article3</h1> -->
                 <div class="card h-100">
-                  <img
-                    src="./image/Article5ComenzarInvertir.jpg"
-                    class="card-img-top"
-                    alt="FinanzasPersonales"
-                  />
+                  <div>
+                    <audio
+                      class="container-fluid mt-2"
+                      src="./mp3/InvertirParaPrincipiantes.mp3"
+                      controls
+                    ></audio>
+                  </div>
                   <div class="card-body">
-                    <p class="date mb-1"><em>Martes 28 de junio de 2022</em></p>
+                    <p class="date mb-1"><em>Domingo 5 de junio de 2022</em></p>
                     <p class="article-category mt-1">
-                      <i class="fa-solid fa-money-bill-trend-up"></i>
-                      Inversiones
+                      <i class="fa-solid fa-book"></i> Audiolibros
                     </p>
                     <div>
                       <ul class="right-area social-icons ul-social-icons">
@@ -607,41 +376,49 @@
                         </li>
                         <li class="li-social-icons">
                           <a href="#" class="a-social-icons"
-                            ><i class="fa-regular fa-heart"></i>31</a
+                            ><i class="fa-regular fa-heart"></i>21</a
                           >
                         </li>
-                        <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
-                            ><i class="fa-regular fa-message"></i>01</a
-                          >
-                        </li>
+                        <!-- <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li> -->
                       </ul>
                     </div>
-                    <h5 class="card-title">
-                      Aprende cómo comenzar a invertir sin riesgos
-                    </h5>
+                    <h5 class="card-title">Invertir Para Principiantes</h5>
                     <p class="card-text">
-                      Invertir permite potenciar nuestros ahorros. Desde
-                      preservar el capital frente a la inflación hasta hacerlo
-                      crecer y estar un paso más cerca de la independencia...
+                      ¿Te sientes estresado por tu futuro financiero? ¿Estás
+                      cansado de sentirte frustrado y confundido sobre la
+                      inversión en general? También podrías pensar que no tienes
+                      suficiente dinero ahorrado para empezar a invertir. No te
+                      estás volviendo más joven y ahorrar dinero para tu
+                      jubilación no va a ser más fácil. Hay demasiada
+                      información disponible sobre la inversión y es demasiado
+                      complicada o aburrida para asimilarla. También debes tener
+                      mucho cuidado en quién confías para asesorarte sobre tu
+                      dinero, porque lo último que quieres es ser estafado por
+                      cualquiera de estos estafadores financieros o inversiones
+                      que te harán quebrar. Sin embargo, es hora de que tomes el
+                      control de tu futuro financiero, porque nadie más lo hará.
+                      Te mereces una vida libre de estrés y excitante donde no
+                      te preocupes por el dinero o de dónde va a venir.
                     </p>
-                    <a href="./EntradaAprendeComenzarInvertir.html" class="btn btn-primary">Ver más</a>
+                    <p><strong>Autor:</strong> Giovanni Rigters</p>
                   </div>
                 </div>
               </article>
 
-              <article class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                <!-- <h1>Section1 - Article6</h1> -->
+              <article class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                <!-- <h1>Section1 - Article3</h1> -->
                 <div class="card h-100">
-                  <img
-                    src="./image/Article6Inflacion.jpg"
-                    class="card-img-top"
-                    alt="FinanzasPersonales"
-                  />
+                  <div>
+                    <audio
+                      class="container-fluid mt-2"
+                      src="./mp3/InversionDeDividendosParaPrincipiantes.mp3"
+                      controls
+                    ></audio>
+                  </div>
                   <div class="card-body">
-                    <p class="date mb-1"><em>Lunes 27 de junio de 2022</em></p>
+                    <p class="date mb-1"><em>Sábado 4 de junio de 2022</em></p>
                     <p class="article-category mt-1">
-                      <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar
+                      <i class="fa-solid fa-book"></i> Audiolibros
                     </p>
                     <div>
                       <ul class="right-area social-icons ul-social-icons">
@@ -652,26 +429,32 @@
                         </li>
                         <li class="li-social-icons">
                           <a href="#" class="a-social-icons"
-                            ><i class="fa-regular fa-heart"></i>87</a
+                            ><i class="fa-regular fa-heart"></i>41</a
                           >
                         </li>
-                        <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
-                            ><i class="fa-regular fa-message"></i>01</a
-                          >
-                        </li>
+                        <!-- <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li> -->
                       </ul>
                     </div>
                     <h5 class="card-title">
-                      Consejos para sobrevivir a la incesante inflación en
-                      Argentina
+                      Inversion de Dividendos para Principiantes
                     </h5>
                     <p class="card-text">
-                      Conceptos y consejos para sobrevivir a la inflación y una
-                      eventual hiperinflación. Qué hacer y qué no hacer en
-                      contextos complejos. Comprender...
+                      Los dividendos proporcionan una forma de seguridad y
+                      fiabilidad financiera. La mayoría de las personas no
+                      quieren invertir en valores financieros porque son reacios
+                      al riesgo, y la imprevisibilidad del mercado puede ser
+                      desalentadora para los inversores primerizos. Invertir en
+                      dividendos asegurará que no tenga que invertir mucho
+                      dinero en efectivo y esperar mucho tiempo para ver algún
+                      rendimiento. En cambio, lo que obtendrás es un flujo
+                      constante de ingresos. No sólo esto, sino que los ingresos
+                      que recibas pueden ser reinvertidos en el mercado, y
+                      gradualmente puedes construir una cartera que acumulará tu
+                      riqueza. Los dividendos proporcionarán una forma de seguridad y
+                      fiabilidad financiera no solo para ti, sino también para toda
+                      tu familia permitiendote llegar a la tan ansidad libertad financiera.
                     </p>
-                    <a href="./EntradaConsejosInflacionArg.html" class="btn btn-primary">Ver más</a>
+                    <p><strong>Autor:</strong> Giovanni Rigters</p>
                   </div>
                 </div>
               </article>
@@ -730,7 +513,7 @@
                       tiempo a esta parte, ambas opciones presentan
                       dificultades. El acceso al mercado...
                     </p>
-                    <a href="./EntradaDolarOPF.html" class="btn btn-primary">Ver más</a>
+                    <a href="#" class="btn btn-primary">Ver más</a>
                   </div>
                 </div>
               </article>
@@ -778,7 +561,7 @@
                       clientes con atraso y/o mora, por más que se pague la
                       deuda, el nombre sigue apareciendo....
                     </p>
-                    <a href="./EntradaSalirVeraz.html" class="btn btn-primary">Ver más</a>
+                    <a href="#" class="btn btn-primary">Ver más</a>
                   </div>
                 </div>
               </article>
@@ -824,10 +607,7 @@
                   />
                   <div class="bg-aside-category">Aprender a ahorrar</div>
                 </a>
-                <a
-                  href="./categoriaInversiones.html"
-                  class="list-group-item list-group-item-action mb-2"
-                >
+                <a href="#" class="list-group-item list-group-item-action mb-2">
                   <img
                     src="./image/asideCategoriaInversiones.jpg"
                     class="img-fluid"
@@ -835,10 +615,7 @@
                   />
                   <div class="bg-aside-category">Inversiones</div>
                 </a>
-                <a
-                  href="./categoriaCriptomonedas.html"
-                  class="list-group-item list-group-item-action mb-2"
-                >
+                <a href="#" class="list-group-item list-group-item-action mb-2">
                   <img
                     src="./image/asideCategoriaCripto.jpg"
                     class="img-fluid"
@@ -846,7 +623,7 @@
                   />
                   <div class="bg-aside-category">Criptomonedas</div>
                 </a>
-                <a href="./categoriaAudioLibros.html" class="list-group-item list-group-item-action mb-2">
+                <a href="#" class="list-group-item list-group-item-action mb-2">
                   <img
                     src="./image/AsideCategoriaAudiolibos.jpg"
                     class="img-fluid"
@@ -861,11 +638,11 @@
                   <img
                     src="./image/asideCategoriaPodcast.jpg"
                     class="img-fluid"
-                    alt="Categoría podcast"
+                    alt="Categoría Podcast"
                   />
                   <div class="bg-aside-category">Podcast</div>
                 </a>
-                <a href="./categoriaPrevenFraudes.html" class="list-group-item list-group-item-action mb-2">
+                <a href="#" class="list-group-item list-group-item-action mb-2">
                   <img
                     src="./image/asideCategoriaFraudes.jpg"
                     class="img-fluid"
@@ -990,21 +767,11 @@
               <li class="page-item">
                 <a class="page-link active" href="./index.html">1</a>
               </li>
-              <li class="page-item">
-                <a class="page-link" href="./index.2.html">2</a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="./index.3.html">3</a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="./index.4.html">4</a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="./index.5.html">5</a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="./index.6.html">6</a>
-              </li>
+              <!-- <li class="page-item"><a class="page-link" href="./index.2.html">2</a></li>
+              <li class="page-item"><a class="page-link" href="./index.3.html">3</a></li>
+              <li class="page-item"><a class="page-link" href="./index.4.html">4</a></li>
+              <li class="page-item"><a class="page-link" href="./index.5.html">5</a></li>
+              <li class="page-item"><a class="page-link" href="./index.6.html">6</a></li> -->
               <li class="page-item">
                 <a class="page-link" href="./index.2.html">Siguiente</a>
               </li>

@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./image/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./image/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./image/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./image/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./image/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./image/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./image/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./image/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./image/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./image/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./image/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./image/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./image/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./image/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./image/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/styleACorrea.css" />
+
+    <script
+      src="https://kit.fontawesome.com/3aca23b465.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>RollingBank</title>
+
+    <!-- =======================================================
+    * Project name: Blog RollingBank - v1.0.0
+    * Author: Grupo Nro 2 - Comisión 5i
+    ======================================================== -->
+  </head>
+
+  <body>
+    <!-- Inicio Navbar - Alfredo Correa -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-navbarlg fs-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./image/logo.png"
+            alt="logo blog"
+            class="d-inline-block align-text-top nav-logo"
+          />
+        </a>
+        <li class="nav-item me-4 my-1 justify-content-end li-login-small">
+          <button
+            class="btn btn-sm btn-outline-info btn-login-small"
+            type="button"
+          >
+            Ingresar
+          </button>
+        </li>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item me-4">
+              <a
+                class="nav-link active fw-semibold underline"
+                aria-current="page"
+                href="./index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link underline" href="#">Acerca de Nosotros</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link underline" href="#">Contáctenos</a>
+            </li>
+            <li class="nav-item me-4">
+              <a
+                class="nav-link underline"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                >Suscribirse</a
+              >
+              <!-- Trigger modal -->
+            </li>
+            <li class="nav-item me-4 my-1 li-login-big">
+              <button
+                class="btn btn-sm btn-outline-info btn-login"
+                type="button"
+              >
+                Ingresar
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">¡Suscríbete!</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Ingrese su correo electrónico para recibir notificaciones
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  ><strong>Dirección de e-mail:</strong>
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  maxlength="75"
+                />
+                <div id="emailHelp" class="form-text">
+                  Nunca compartiremos su e-mail.
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Suscribirse</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Navbar - Alfredo Correa -->
+
+    <!-- Inicio página principal - Alfredo Correa -->
+    <main class="bg-mainlg">
+      <!-- Imagen Principal -->
+      <div class=" ">
+        <img
+          src="/image/CriptomonedasPrincipal3x.jpg"
+          class="img-fluid img-entrada-main"
+          alt="PortadaCriptos"
+        />
+      </div>
+
+      <div class="py-1 text-center container">
+        <h2 class="mb-2">¿Qué son y para qué sirven las Criptomonedas?</h2>
+      </div>
+
+      <div class="container">
+        <div class="mt-1 row mb-3">
+          <div class="col-md-12">
+            <section class="mt-2 row">
+              <article class="col-sm-12">
+                <p>
+                  Si quieres saber que son las criptomonedas, debes empezar por
+                  entender que se trata de un medio digital de intercambio,
+                  relativamente nuevo, y cuando digo relativamente es porque ya
+                  tiene más de unos 10 años aproximadamente en el mercado
+                  financiero, sin embargo ha sido en los últimos años cuando más
+                  ha ido incrementando su auge. Cumplen la función de una
+                  moneda, es por ello que se conoce con ese nombre, aunque sea
+                  totalmente digital. Las criptomonedas utilizan métodos
+                  criptográficos para asegurar sus transacciones financieras, y
+                  poder a su vez, controlar y verificar la movilización de
+                  activos. La criptomoneda se considera exclusivamente digital,
+                  ya que es dinero digital, no hay monedas ni billetes físicos,
+                  todo es en línea. Se puede transferir una criptomoneda a
+                  alguien en internet sin un intermediario, sin la figura de un
+                  banco por ejemplo. Las criptomonedas más conocidas son Bitcoin
+                  y Ether, pero se continúan creando nuevas criptomonedas en la
+                  actualidad, por lo que se estima se manejen muchas más en el
+                  mercado.
+                </p>
+                <h5 mt-3>¿Cómo funcionan?</h5>
+                <p>
+                  Las criptomonedas funcionan como una alternativa
+                  descentralizada a las monedas digitales. Esto quiere decir
+                  básicamente, que estas monedas no son controladas por un único
+                  servicio o empresa, lo opuesto a las entidades convencionales.
+                  El valor de cada criptomoneda es realmente variable, es por
+                  esto que en los últimos años muchas personas quieren comprar
+                  criptomonedas, luego venderlas y así ganar dinero, asumiendo
+                  esto como una inversión, aunque pueden suscitarse caídas
+                  abruptas del valor de las criptomonedas y terminar perdiendo
+                  dinero. Sin embargo, en el caso de que tengas criptomonedas,
+                  también es importante saberlo, ya que si vas a utilizarlas
+                  para realizar pagos debes saber que puedes conseguir precios
+                  variables por esta razón. El mercado de la criptomoneda radica
+                  en una red de ordenadores, lo que suponen nodos repartidos por
+                  todo el mundo con copias de todas las transacciones que se han
+                  hecho, obviamente con los mineros, que son los que utilizan la
+                  potencia informática, para procesar transacciones y obtener
+                  recompensas, en este caso criptomonedas. Ahora, para extraer
+                  una determinada criptomoneda, se requiere un hardware apto
+                  para extraer esa moneda. Dependiendo de la moneda, es posible
+                  que necesite un minero ASIC (una computadora dedicada a
+                  extraer una determinada moneda) o una computadora con una GPU
+                  (tarjeta gráfica) de alto rendimiento. Incluso, en algunos
+                  casos, también puede usar una CPU (procesador central). Es
+                  posible que se necesite un hardware diferente para cada tipo
+                  de moneda que se quiera extraer. Ojo con esto, para quienes
+                  decidan incursionar en este sistema financiero, con el uso del
+                  hardware inadecuado solo se conseguirá perder dinero, es muy
+                  riesgoso.
+                </p>
+                <h5>¿Por qué no es sostenible una estafa piramidal?</h5>
+                <p>
+                  Este gráfico muestra de forma muy simple por qué no es
+                  sostenible una estafa piramidal.
+                </p>
+                <h5>¿Para qué Puedes Usarlas?</h5>
+                <p>
+                  Podrías utilizar criptomonedas para realizar pagos rápidos y
+                  así evitar los cargos de transacciones bancarias. Otra forma
+                  de usarlas sería adquirirlas como una inversión, con la
+                  esperanza de que su valor incremente, almacenándolas mientras
+                  tanto en tu monedero digital, para lo que existen algunas
+                  opciones, puedes hacerlo en línea, inclusive en tu ordenador o
+                  en otro soporte físico. En fin, si te interesa debes
+                  documentarte lo suficiente para incursionar de manera segura y
+                  con el mayor conocimiento previo al respecto.
+                </p>
+
+                <h6>
+                  Mirá el video de BBC News sobre las 4 claves para entender a la más grande de las criptomonedas
+                </h6>
+                
+                <iframe
+                  class="container-iframe-video-md"
+                  width="330"
+                  height="215"
+                  src="https://www.youtube.com/embed/C-3aYnhF6Io"
+                  title="Esquema Ponzi"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+
+                <iframe
+                  class="container-iframe-video-lg"
+                  width="530"
+                  height="315"
+                  src="https://www.youtube.com/embed/C-3aYnhF6Io"
+                  title="Educación Financiera"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+              </article>
+            </section>
+          </div>
+        </div>
+
+        <!-- Formulario Comentarios-->
+
+        <div
+          class="h3 pb-2 mb-4 text-dark border-top border-dark justify-content-start py-1"
+        >
+          <span class="margin-mas-populares">Comentarios</span>
+        </div>
+
+        <form class="row g-3 mt-1 mb-5">
+          <h6>Compartí tus ideas de forma responsable y respetuosa</h6>
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label">Nombre:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault01"
+              value=""
+              required
+              maxlength="80"
+            />
+          </div>
+
+          <div class="col-md-4">
+            <label for="validationDefaultUsername" class="form-label"
+              >Correo Electrónico:</label
+            >
+            <div class="input-group">
+              <!-- <span class="input-group-text" id="inputGroupPrepend2">@</span> -->
+              <input
+                type="email"
+                class="form-control"
+                id="validationDefaultUsername"
+                aria-describedby="inputGroupPrepend2"
+                required
+                maxlength="80"
+              />
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck2"
+                required
+              />
+              <label class="form-check-label" for="invalidCheck2">
+                De acuerdo con los términos y condiciones
+              </label>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Comentario:</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              required
+              maxlength="240"
+            ></textarea>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">
+              Enviar comentario
+            </button>
+          </div>
+        </form>
+
+        <div
+          class="h3 pb-2 mb-4 text-dark border-top border-dark justify-content-start py-1"
+        >
+          <span class="margin-mas-populares">Más recientes</span>
+        </div>
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <img
+              src="./image/avatar-mujer.jfif"
+              class="img-fluid rounded-start"
+              alt="avatar"
+              style="width: 60px; height: 60px"
+            />
+            <h6>Nelida Quiroga</h6>
+            <p>
+              Nota muy recomendada. Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Iste, obcaecati, tempore officiis reprehenderit
+              sapiente, ipsa alias vero voluptatibus sed provident nisi neque
+              enim reiciendis exercitationem. Aspernatur nulla nobis at minima!
+            </p>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <!-- Fin página principal - Alfredo Correa -->
+
+    <footer style="background-color: rgb(252, 203, 69)">
+      <h1>Este es el footer</h1>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Código de instalación Cliengo para rollingbot.com.ar -->
+    <script type="text/javascript">
+      (function () {
+        var ldk = document.createElement("script");
+        ldk.type = "text/javascript";
+        ldk.async = true;
+        ldk.src =
+          "https://s.cliengo.com/weboptimizer/61f5fd2cf59d6e002ab65b35/61f5fd3bf59d6e002ab65b4c.js?platform=view_installation_code";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ldk, s);
+      })();
+    </script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
