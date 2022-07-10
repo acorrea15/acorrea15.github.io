@@ -95,6 +95,12 @@
     color: #999;
 }
 
+.article-category {
+    color: rgb(161, 161, 161);
+}
+
+
+
 
 /* Inicio - Social Icons */
 /* .right-area{ float: right;  } */
@@ -138,6 +144,36 @@ ul.social-icons > li > a > i{ margin-right: 10px; }
     display: none;
 }
 
+.img-entrada-estafa{
+    max-width: 50%; 
+    max-height: 50%
+}
+
+.img-cursos-container{
+    position: relative;
+}
+
+.img-cursos{
+    border-radius: 20px; 
+    box-shadow: 5px 8px 12px black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-cursos-p{
+    font-size: 1.6rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1.5px 1.5px #000000;
+}
+
+.img-cursos:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black ;
+}
 @media(max-width: 992px){
     .nav-link{text-align: center;}
     .underline:hover:after{
