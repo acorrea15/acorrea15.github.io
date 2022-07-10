@@ -61,70 +61,120 @@
       </section>
     </header>
 
-    <!-- Inicio Navbar - Alfredo Correa -->
-    <nav class="navbar sticky-top navbar-expand-lg bg-navbarlg fs-5">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="./image/logo.png"
-            alt="logo blog"
-            class="d-inline-block align-text-top nav-logo"
-          />
-        </a>
-        <li class="nav-item me-4 my-1 justify-content-end li-login-small">
-          <button
-            class="btn btn-sm btn-outline-info btn-login-small"
-            type="button"
-          >
-            Ingresar
-          </button>
-        </li>
+   <!-- Inicio Navbar - Alfredo Correa -->
+   <nav class="navbar sticky-top navbar-expand-lg bg-navbarlg fs-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img
+          src="./image/logo.png"
+          alt="logo blog"
+          class="d-inline-block align-text-top nav-logo"
+        />
+      </a>
+      <li class="nav-item me-4 my-1 justify-content-end li-login-small">
         <button
-          class="navbar-toggler"
+          class="btn btn-sm btn-outline-info btn-login-small"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          Ingresar
         </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item me-4">
-              <a
-                class="nav-link active fw-semibold underline"
-                aria-current="page"
-                href="#"
-                >Inicio</a
+      </li>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item me-4">
+            <a
+              class="nav-link active fw-semibold underline"
+              aria-current="page"
+              href="./index.html"
+              >Inicio</a
+            >
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link underline" href="#">Acerca de Nosotros</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link underline" href="#">Contáctenos</a>
+          </li>
+          <li class="nav-item me-4">
+            <a
+              class="nav-link underline"
+              href="#"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              >Suscribirse</a
+            >
+          <!-- Trigger modal -->
+          </li>
+          <li class="nav-item me-4 my-1 li-login-big">
+            <button
+              class="btn btn-sm btn-outline-info btn-login"
+              type="button"
+            >
+              Ingresar
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Modal -->
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">¡Suscríbete!</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          Ingrese su correo electrónico para recibir notificaciones
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                ><strong>Dirección de e-mail:</strong> </label
               >
-            </li>
-            <li class="nav-item me-4">
-              <a class="nav-link underline" href="#">Acerca de Nosotros</a>
-            </li>
-            <li class="nav-item me-4">
-              <a class="nav-link underline" href="#">Contáctenos</a>
-            </li>
-            <li class="nav-item me-4">
-              <a class="nav-link underline" href="#">Suscribirse</a>
-            </li>
-            <li class="nav-item me-4 my-1 li-login-big">
-              <button
-                class="btn btn-sm btn-outline-info btn-login"
-                type="button"
-              >
-                Ingresar
-              </button>
-            </li>
-          </ul>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                maxlength="75"
+              />
+              <div id="emailHelp" class="form-text">
+                Nunca compartiremos su e-mail.
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Suscribirse</button>
+          </form>
         </div>
       </div>
-    </nav>
-    <!-- Fin Navbar - Alfredo Correa -->
+    </div>
+  </div>
+  <!-- Fin Navbar - Alfredo Correa -->
 
     <!-- Inicio página principal - Alfredo Correa -->
     <main class="bg-mainlg">
@@ -292,19 +342,18 @@
                     alt="EducacionFinanciera1"
                   />
                   <div class="card-body">
-                    <p class="date"><em>Sábado 2 de julio de 2022</em></p>
+                    <p class="date mb-1"><em>Jueves 2 de junio de 2022</em></p>
+                    <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
                           <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
                           <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>30</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>03</a></li>
+                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
-                    <h5 class="card-title">La importancia de la educación financiera para vos y tu entorno</h5>
+                    <h5 class="card-title">Jugá como un experto: 5 hábitos para ahorrar</h5>
                     <p class="card-text">
-                      La educación financiera tiene como propósito contribuir a establecer 
-                      hábitos y enseñarte a tomar las mejores decisiones sobre tus gastos, 
-                      ahorro e inversión...
+                      Una buena salud financiera requiere de un cierto equilibrio entre los ingresos y gastos de una persona, pero también de la posibilidad de ahorrar, aunque sea un poco por mes. Como todo en la...
                     </p>
                     <a href="#" class="btn btn-primary">Ver más</a>
                   </div>
@@ -320,18 +369,18 @@
                     alt="EstafaPiramidal1"
                   />
                   <div class="card-body">
-                    <p class="date"><em>Viernes 1 de julio de 2022</em></p>
+                    <p class="date mb-1"><em>Miércoles 1 de julio de 2022</em></p>
+                    <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
                           <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
                           <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>09</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>02</a></li>
+                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
-                    <h5 class="card-title">Estafa piramidal y esquema Ponzi: cómo evitar estas estafas</h5>
+                    <h5 class="card-title">5 grandes desafíos de los gastos comunes</h5>
                     <p class="card-text">
-                      Es necesario conocer el funcionamiento de una estafa piramidal, para evitar 
-                      caer en la trampa del telar de la abundancia o en los esquemas Ponzi...
+                      Supongamos que te vas a vivir con tu pareja o amigx. De antemano deciden compartir el gasto del alquiler. Lo mismo sucede con las expensas y gastos en servicios. Todas las facturas se dividen...
                     </p>
                     <a href="#" class="btn btn-primary">Ver más</a>
                   </div>
@@ -347,7 +396,8 @@
                     alt="Criptomonedas"
                   />
                   <div class="card-body">
-                    <p class="date"><em>Jueves 30 de junio de 2022</em></p>
+                    <p class="date mb-1"><em>Martes 31 de mayo de 2022</em></p>
+                    <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
                           <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
@@ -355,10 +405,9 @@
                           <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li>
                         </ul>
                     </div>
-                    <h5 class="card-title">¿Qué son y para qué sirven las Criptomonedas?</h5>
+                    <h5 class="card-title">Alquilar y ahorrar es posible: seguí estas recomendaciones</h5>
                     <p class="card-text">
-                      La criptomoneda es una moneda virtual o criptodivisa. Es dinero digital que utiliza una 
-                      criptografía fuerte para asegurar las transacciones, controlar...
+                      El alquiler es uno de los principales gastos fijos que tenemos por mes. Y si bien en el último tiempo las reglas entre inquilinos y dueños cambiaron, estamos...
                     </p>
                     <a href="#" class="btn btn-primary">Ver más</a>
                   </div>
@@ -374,18 +423,18 @@
                     alt="FinanzasPersonales"
                   />
                   <div class="card-body">
-                    <p class="date"><em>Miércoles 29 de junio de 2022</em></p>
+                    <p class="date mb-1"><em>Lunes 30 de mayo de 2022</em></p>
+                    <p class="article-category mt-1"> <i class="fa-solid fa-money-bill-trend-up"></i> Inversiones</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
                           <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
                           <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>42</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>02</a></li>
+                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
-                    <h5 class="card-title">¿Qué son las finanzas personales y cómo pueden ayudarte?</h5>
+                    <h5 class="card-title">¿Cómo generar un poco más de ingresos?</h5>
                     <p class="card-text">
-                      Administrar tu dinero es un paso necesario para ordenar tus gastos y así poder alcanzar todas tus  metas. 
-                      Descubre qué son las finanzas personales. Tener...
+                      El tiempo vale oro. Saber cómo aprovecharlo es clave para quienes quieren sumar un ingreso extra a sus bolsillos. Pero ahí es cuando surge el problema: ¿Cómo puedo generar mensualmente esa platita de más?...
                     </p>
                     <a href="#" class="btn btn-primary">Ver más</a>
                   </div>
@@ -401,18 +450,18 @@
                     alt="FinanzasPersonales"
                   />
                   <div class="card-body">
-                    <p class="date"><em>Martes 28 de junio de 2022</em></p>
+                    <p class="date mb-1"><em>Domingo 29 de mayo de 2022</em></p>
+                    <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
                           <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
                           <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>31</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li>
+                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
-                    <h5 class="card-title">Aprende cómo comenzar a invertir sin riesgos</h5>
+                    <h5 class="card-title">¿Se te va la plata y no sabés en qué?</h5>
                     <p class="card-text">
-                      Invertir permite potenciar nuestros ahorros. Desde preservar el capital frente a la inflación hasta hacerlo crecer y
-                      estar un paso más cerca de la independencia...
+                      Hacer un seguimiento de tus gastos nunca fue tan fácil como hoy. Lo decimos muy en serio. Antes tenías que anotar cada compra que realizabas en una libreta, con todas las dificultades que eso implicaba. Si lo intentaste,...
                     </p>
                     <a href="#" class="btn btn-primary">Ver más</a>
                   </div>
@@ -428,20 +477,20 @@
                     alt="FinanzasPersonales"
                   />
                   <div class="card-body">
-                    <p class="date"><em>Lunes 27 de junio de 2022</em></p>
+                    <p class="date mb-1"><em>Sábado 28 de mayo de 2022</em></p>
+                    <p class="article-category mt-1"> <i class="fa-solid fa-money-bill-trend-up"></i> Inversiones</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
                           <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
                           <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>87</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li>
+                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
-                    <h5 class="card-title">Consejos para sobrevivir a la incesante inflación en Argentina</h5>
+                    <h5 class="card-title">¡Ya llega el aguinaldo! ¿Cómo hacer para que rinda más?</h5>
                     <p class="card-text">
-                      Conceptos y consejos para sobrevivir a la inflación y una eventual hiperinflación. Qué hacer y qué no hacer en 
-                      contextos complejos. Comprender...
+                      En junio, muchos trabajadores comienzan a pensar: “¡Ya llega el aguinaldo!”. Esa palabra mágica que da aliento a mitad de año y es de gran ayuda para saldar deudas o cubrir gastos. Se trata de un sueldo...
                     </p>
-                    <a href="#" class="btn btn-primary">Ver más</a>
+                    <a href="./error404.html" class="btn btn-primary">Ver más</a>
                   </div>
                 </div>
               </article>
@@ -466,7 +515,7 @@
                     alt="NotaMasLeida1"
                   />
                   <div class="card-body">
-                    <p class="date"><em>Miércoles 23 de marzo de 2022</em></p>
+                    <p class="date mb-1"><em>Miércoles 23 de marzo de 2022</em></p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
                           <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
@@ -493,7 +542,7 @@
                     alt="NotaMasLeida2"
                   />
                   <div class="card-body">
-                    <p class="date"><em>Martes 4 de enero de 2022</em></p>
+                    <p class="date mb-1"><em>Martes 4 de enero de 2022</em></p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
                           <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
@@ -533,29 +582,33 @@
                 <div class="list-group-item list-group-item-action active" aria-current="true">
                   <h5>Categorías</h5>
                 </div>
-                <a href="#" class="list-group-item list-group-item-action mb-2">
+                <a href="./categoriaAprenderAhorrar.html" class="list-group-item list-group-item-action mb-2">
                   <img src="./image/asideCategoriaAhorro.jpg" class="img-fluid" alt="Categoría ahorro"> 
                   <div class="bg-aside-category ">Aprender a ahorrar</div> 
                 </a>
-                <a href="#" class="list-group-item list-group-item-action mb-2">
+                <a href="./categoriaInversiones.html" class="list-group-item list-group-item-action mb-2">
                   <img src="./image/asideCategoriaInversiones.jpg" class="img-fluid" alt="Categoría inverir"> 
                   <div class="bg-aside-category ">Inversiones</div> 
                 </a>
-                <a href="#" class="list-group-item list-group-item-action mb-2">
+                <a href="./categoriaCriptomonedas.html" class="list-group-item list-group-item-action mb-2">
                   <img src="./image/asideCategoriaCripto.jpg" class="img-fluid" alt="Categoría criptomonedas"> 
                   <div class="bg-aside-category ">Criptomonedas</div> 
                 </a>
-                <a href="#" class="list-group-item list-group-item-action mb-2">
+                <a href="./categoriaAudioLibros.html" class="list-group-item list-group-item-action mb-2">
                   <img src="./image/AsideCategoriaAudiolibos.jpg" class="img-fluid" alt="Categoría audiolibros"> 
                   <div class="bg-aside-category ">Audilibros</div> 
                 </a>
-                <a href="#" class="list-group-item list-group-item-action mb-2">
-                  <img src="./image/asideCategoriaPodcast.jpg" class="img-fluid" alt="Categoría audiolibros"> 
+                <a href="./categoriaPodcast.html" class="list-group-item list-group-item-action mb-2">
+                  <img src="./image/asideCategoriaPodcast.jpg" class="img-fluid" alt="Categoría Podcast"> 
                   <div class="bg-aside-category ">Podcast</div> 
                 </a>
-                <a href="#" class="list-group-item list-group-item-action mb-2">
-                  <img src="./image/asideCategoriaFraudes.jpg" class="img-fluid" alt="Categoría audiolibros"> 
+                <a href="./categoriaPrevenFraudes.html" class="list-group-item list-group-item-action mb-2">
+                  <img src="./image/asideCategoriaFraudes.jpg" class="img-fluid" alt="Categoría fraudes"> 
                   <div class="bg-aside-category ">Prevención de fraudes</div> 
+                </a>
+                <a href="./categoriaVideos.html" class="list-group-item list-group-item-action mb-2">
+                  <img src="./image/asideCategoriaVideos.jpg" class="img-fluid" alt="Categoría Videos"> 
+                  <div class="bg-aside-category ">Videos</div> 
                 </a>
                 
               </div>
