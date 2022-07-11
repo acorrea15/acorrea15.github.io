@@ -36,5 +36,6 @@
 
   .text-center {
     min-width: 350px;
+    font-size: 50px;
   }
 }
