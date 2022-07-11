@@ -49,120 +49,128 @@
 
   <body>
 
-   <!-- Inicio Navbar - Alfredo Correa -->
-   <nav class="navbar sticky-top navbar-expand-lg bg-navbarlg fs-5">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img
-          src="./image/logo.png"
-          alt="logo blog"
-          class="d-inline-block align-text-top nav-logo"
-        />
-      </a>
-      <li class="nav-item me-4 my-1 justify-content-end li-login-small">
-        <button
-          class="btn btn-sm btn-outline-info btn-login-small"
-          type="button"
-        >
-          Ingresar
-        </button>
-      </li>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="collapse navbar-collapse justify-content-end"
-        id="navbarNav"
-      >
-        <ul class="navbar-nav">
-          <li class="nav-item me-4">
-            <a
-              class="nav-link active fw-semibold underline"
-              aria-current="page"
-              href="./index.html"
-              >Inicio</a
-            >
-          </li>
-          <li class="nav-item me-4">
-            <a class="nav-link underline" href="#">Acerca de Nosotros</a>
-          </li>
-          <li class="nav-item me-4">
-            <a class="nav-link underline" href="#">Contáctenos</a>
-          </li>
-          <li class="nav-item me-4">
-            <a
-              class="nav-link underline"
-              href="#"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              >Suscribirse</a
-            >
-          <!-- Trigger modal -->
-          </li>
-          <li class="nav-item me-4 my-1 li-login-big">
-            <button
-              class="btn btn-sm btn-outline-info btn-login"
-              type="button"
-            >
-              Ingresar
-            </button>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Modal -->
-  <div
-    class="modal fade"
-    id="exampleModal"
-    tabindex="-1"
-    aria-labelledby="exampleModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">¡Suscríbete!</h5>
+    <!-- Inicio Navbar - Alfredo Correa -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-navbarlg fs-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./image/logo.png"
+            alt="logo blog"
+            class="d-inline-block align-text-top nav-logo"
+          />
+        </a>
+        <li class="nav-item me-4 my-1 justify-content-end li-login-small">
           <button
+            class="btn btn-sm btn-outline-info btn-login-small"
             type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body">
-          Ingrese su correo electrónico para recibir notificaciones
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
-                ><strong>Dirección de e-mail:</strong> </label
+            role="link" 
+            onclick="window.location='./loginProyecto.html'"
+          >
+            Ingresar
+          </button>
+        </li>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item me-4">
+              <a
+                class="nav-link active fw-semibold underline"
+                aria-current="page"
+                href="./index.html"
+                >Inicio</a
               >
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                maxlength="75"
-              />
-              <div id="emailHelp" class="form-text">
-                Nunca compartiremos su e-mail.
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link underline" href="./aceracDeNosotros.html">Acerca de Nosotros</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link underline" href="./galeriaDeImagenes.html">Galería</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link underline" href="./contacto.html">Contáctenos</a>
+            </li>
+            <li class="nav-item me-4">
+              <a
+                class="nav-link underline"
+                href=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                >Suscribirse</a
+              >
+            <!-- Trigger modal -->
+            </li>
+            <li class="nav-item me-4 my-1 li-login-big">
+              <button
+                class="btn btn-sm btn-outline-info btn-login"
+                type="button"
+                role="link" 
+                onclick="window.location='./loginProyecto.html'"
+              >
+                Ingresar
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">¡Suscríbete!</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Ingrese su correo electrónico para recibir notificaciones
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  ><strong>Dirección de e-mail:</strong> </label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Ingrese su e-mail"
+                  maxlength="75"
+                />
+                <div id="emailHelp" class="form-text">
+                  Nunca compartiremos su e-mail.
+                </div>
               </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Suscribirse</button>
-          </form>
+              <button type="submit" class="btn btn-primary">Suscribirse</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Fin Navbar - Alfredo Correa -->
+    <!-- Fin Navbar - Alfredo Correa -->
 
     <!-- Inicio página principal - Alfredo Correa -->
     <main class="bg-mainlg">
@@ -305,9 +313,69 @@
     <!-- Fin página principal - Alfredo Correa -->
 
     
-    <footer style="background-color: rgb(252, 203, 69)">
-      <h1>Este es el footer</h1>
+    <!-- Inicio Footer -->
+    <footer>
+      <div class="container-fluid bg-secondary text-white">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <a href="./index.html">
+              <img
+                class="img-fluid my-5 footer-img-logo"
+                src="./image/logo.png"
+                width=""
+                alt="logo"
+              />
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 mx-5">
+            Seguinos en
+            <div class="">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="fa-brands fa-instagram-square my-2"
+                style="text-decoration: none; color: aliceblue"
+              ></a>
+              <a
+                href="https://es-la.facebook.com/"
+                target="_blank"
+                class="fa-brands fa-facebook-square my-2"
+                style="text-decoration: none; color: aliceblue"
+              ></a>
+              <a
+                href="https://twitter.com/home?lang=es"
+                target="_blank"
+                class="fa-brands fa-twitter-square my-2"
+                style="text-decoration: none; color: aliceblue"
+              ></a>
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="fa-brands fa-youtube-square my-2"
+                style="text-decoration: none; color: aliceblue"
+              ></a>
+            </div>
+            <div>
+              <small
+                >&copy;2022 <b>Rolling Bank</b> - Todos los derechos
+                reservados
+              </small
+              >
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 mb-5">
+            <p>Descarga nuestra App</p> 
+            <div class="footer-img mt-2">
+              <!-- <i class="fa-brands fa-app-store-ios"></i>
+              <i class="fa-brands fa-google-play"></i> -->
+              <a href="https://play.google.com/store/apps"><img src="./image/googleplay.png" alt="googleplay" class="footer-img mb-2 justify-content-start"></a>
+              <a href="https://www.apple.com/la/app-store/"><img src="./image/appstore.png" alt="googleplay" class="img-fluid footer-img"></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
+    <!-- Fin Footer -->
 
     <!-- JavaScript Bundle with Popper -->
     <script

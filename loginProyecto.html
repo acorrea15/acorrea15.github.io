@@ -86,12 +86,18 @@
     <title>RollingBank</title>
     <style>
         body {
-            background-image: url(./image/tronstablecoinspng.webp);
+            /* background-image: url(./image/tronstablecoinspng.webp); */
+            height: 100%;
+            background-repeat: no-repeat;
+            background: url(./image/tronstablecoinspng.webp) no-repeat center center fixed;
+            background-size: 100% 100%;     
+            opacity: 0.96;      
         }
 
         .bg {
             background-image: url(./image/dolarCripto2.jpg);
             background-position: center center;
+            background-repeat: no-repeat;
         }
     </style>
 
@@ -105,21 +111,22 @@
         <div class="row">
 
             <div class="col">
-                <div class="text-end"> <img src="./image/logo.png" width="180" alt="logo"></div>
+                <div class="text-start"> <img src="./image/logo.png" width="180" alt="logo"></div>
                 <h1 class="text-center py-5">Bienvenidos</h1>
                 
                 
                 <form action="#">
                     <div class="mb-4"> 
                       <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" maxlength="75" placeholder="colorhumano73@gmail.com">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" maxlength="75" placeholder="colorhumano73@gmail.com" required>
                     </div>
                     <div class="mb-4"> <label for="password" class="form-label">Contraseña</label> <input
                             type="password" class="form-control" name="password" maxlength="12" minlength="9"> 
                     </div>
                     <div class="mb-4 form-check"> <input type="checkbox" name="connected" class="form-check-input"
                             id=""> <label for="connected" class="form-check-label">Mantenerme conectado</label>
-                        <div class="d-grid"> <button type="submit" class="btn btn-primary"> Iniciar Sesión</button>
+                        <div class="d-grid"> <button type="submit" class="btn btn-primary" role="link" 
+                          onclick="window.location='./error404.html'"> Iniciar Sesión</button>
                         </div>
                         <div class="my-3"> <span>¿No estas registrado? <a href="#staticBackdrop" data-bs-toggle="modal"
                                     data-bs-target="staticBackdrop"> Regístrate</a></span> <br> <span>¿Te olvidaste tú
@@ -152,33 +159,31 @@
                                         <input class="form-control" type="email" name="email" placeholder="colorhumano@gmail.com" maxlength="75" />
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary"
+                                        <button type="button" class="btn btn-primary" role="link" onclick="window.location='./error404.html'"
                                             >Siguiente</button>
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
-
-
-
-
                     </div>
                 </form>
+
+
+
+                
 
                 
                 <div class="container w-100 my-5">
                     <div class="row">
-                        <div class="col"> <button class="btn btn-outline-primary w-100 my-1">
+                        <div class="col"> <button class="btn btn-outline-primary w-100 my-1" role="link" onclick="window.location='./error404.html'"> 
                                 <div class="row  align-items-center">
                                     <div class="col-2"> <img src="./image/logoFacebook.png" width="32" alt=""></div>
                                     <div class="col-10 text-center">Facebook</div>
                                 </div>
 
                             </button> </div>
-                        <div class="col"> <button class="btn btn-outline-danger w-100 my-1">
+                        <div class="col"> <button class="btn btn-outline-danger w-100 my-1"  role="link" onclick="window.location='./error404.html'">
                                 <div class="row  align-items-center">
                                     <div class="col-2"> <img src="./image/logoGoogle.png" width="32" alt=""></div>
                                     <div class="col-10 text-center">Google</div>
