@@ -216,7 +216,7 @@
           </div>
           <div class="modal-body">
             Ingrese su correo electrónico para recibir notificaciones
-            <form>
+            <form onsubmit="window.location='./error404.html'; return false">
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label"
                   ><strong>Dirección de e-mail:</strong> </label
@@ -254,9 +254,11 @@
         <div class="row">
           <div class="col-md-6">
             <address>Av Aconquija 1350 - Yerba Buena - Tucumán</address>
-            <p>Email: rollingbank@gmail.com</p>
-  
-            <p>Teléfono: 3816332715</p>
+            <p class="mt-4">Email: rollingbank@gmail.com</p>  
+            <p class="mt-4">Teléfono: 3816332715</p>
+            <p><strong>Chatee con un asesor:</strong> 
+            <a href="https://wa.me/3816471040"> <img src="./image/logows3.svg" alt="logows" class="img-fluid img-logows mb-3 mt-3"> </a>
+          </p>
             <center>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.8069258109613!2d-65.29157258500418!3d-26.814275683170063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942242d59a04d749%3A0x525a9cad4dcff247!2sAv.%20Aconquija%201350%2C%20Yerba%20Buena%2C%20Tucum%C3%A1n!5e0!3m2!1sen!2sar!4v1656297723829!5m2!1sen!2sar"
@@ -271,7 +273,7 @@
           </div>
 
           <div class="col-md-6">
-            <form>
+            <form onsubmit="window.location='./error404.html'; return false">
               <div class="mb-3">
                 <label>Nombre</label>
                 <input
@@ -314,7 +316,7 @@
               <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1" aria-describedby="termHelp" required>
                 <label class="form-check-label" for="exampleCheck1">Acepto los términos y condiciones</label>
-                <div id="termlHelp" class="form-text">Ver términos y condiciones</div>
+                <div id="termlHelp" class="form-text"><a href="./error404.html" target="_blank">Ver términos y condiciones</a></div>
               </div>
               <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
