@@ -115,7 +115,7 @@
                 <h1 class="text-center py-5">Bienvenidos</h1>
                 
                 
-                <form action="#">
+                <form action="#" onsubmit="window.location='./error404.html'; return false">
                     <div class="mb-4"> 
                       <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" maxlength="75" placeholder="colorhumano73@gmail.com" required>
@@ -125,13 +125,10 @@
                     </div>
                     <div class="mb-4 form-check"> <input type="checkbox" name="connected" class="form-check-input"
                             id=""> <label for="connected" class="form-check-label">Mantenerme conectado</label>
-                        <div class="d-grid"> <button type="submit" class="btn btn-primary" role="link" 
-                          onclick="window.location='./error404.html'"> Iniciar Sesión</button>
+                        <div class="d-grid"> <button type="submit" class="btn btn-primary"> Iniciar Sesión</button>
                         </div>
                         <div class="my-3"> <span>¿No estas registrado? <a href="#staticBackdrop" data-bs-toggle="modal"
-                                    data-bs-target="staticBackdrop"> Regístrate</a></span> <br> <span>¿Te olvidaste tú
-                                contraseña? </span></div>
-
+                                    data-bs-target="staticBackdrop"> Regístrate</a></span> <br> <span>¿Te olvidaste tú contraseña? </span></div>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop">
@@ -159,19 +156,14 @@
                                         <input class="form-control" type="email" name="email" placeholder="colorhumano@gmail.com" maxlength="75" />
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary" role="link" onclick="window.location='./error404.html'"
-                                            >Siguiente</button>
+                                        <button type="submit" class="btn btn-primary">Siguiente</button>
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </form>
-
-
-
-                
+                </form>                
 
                 
                 <div class="container w-100 my-5">
