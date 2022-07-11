@@ -196,6 +196,10 @@ ul.social-icons > li > a > i{ margin-right: 10px; }
         width: 9rem;
     } 
 
+    .contact-logo{
+        width: 14rem;
+    } 
+
     .footer-img-logo{
         width: 12rem;
     }
