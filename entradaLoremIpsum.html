@@ -147,7 +147,7 @@
           </div>
           <div class="modal-body">
             Ingrese su correo electrónico para recibir notificaciones
-            <form>
+            <form onsubmit="window.location='./error404.html'; return false">
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label"
                   ><strong>Dirección de e-mail:</strong> </label
@@ -171,6 +171,8 @@
       </div>
     </div>
     <!-- Fin Navbar - Alfredo Correa -->
+
+
 
     <!-- Inicio página principal - Alfredo Correa -->
     <main class="bg-mainlg">
@@ -240,10 +242,31 @@
                   title="Educación Financiera" 
                   frameborder="0" 
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
-
-                
+                </iframe>                
               </article>
+
+              <p class="article-category mt-1">
+                <i class="fa-solid fa-sack-dollar"></i> Lorem
+              </p>
+              <div>
+                <ul class="right-area social-icons ul-social-icons">
+                  <li class="li-social-icons">
+                    <a href="./error404.html" class="a-social-icons"
+                      ><i class="fa-solid fa-share-nodes"></i>Compartir</a
+                    >
+                  </li>
+                  <li class="li-social-icons">
+                    <a href="./error404.html" class="a-social-icons"
+                      ><i class="fa-regular fa-heart"></i>24</a
+                    >
+                  </li>
+                  <li class="li-social-icons">
+                    <a href="./error404.html" class="a-social-icons"
+                      ><i class="fa-regular fa-message"></i>05</a
+                    >
+                  </li>
+                </ul>
+              </div>
 
             </section>
 
@@ -258,11 +281,11 @@
           <span class="margin-mas-populares ">Comentarios</span> 
         </div>
 
-        <form class="row g-3 mt-1 mb-5">
+        <form class="row g-3 mt-1 mb-5" onsubmit="window.location='./error404.html'; return false">
           <h6>Compartí tus ideas de forma responsable y respetuosa</h6>
           <div class="col-md-4">
             <label for="validationDefault01" class="form-label">Nombre:</label>
-            <input type="text" class="form-control" id="validationDefault01" value="" required maxlength="80">
+            <input type="text" class="form-control" id="validationDefault01" value="" required minlength="3" maxlength="80">
           </div>
         
           <div class="col-md-4">
@@ -274,17 +297,16 @@
           </div>
 
           <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-              <label class="form-check-label" for="invalidCheck2">
-                De acuerdo con los términos y condiciones
-              </label>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" aria-describedby="termHelp" required>
+              <label class="form-check-label" for="exampleCheck1">De acuerdo con los términos y condiciones</label>
+              <div id="termlHelp" class="form-text"><a href="./error404.html" target="_blank">Ver términos y condiciones</a></div>
             </div>
           </div>
 
           <div class="col-md-6">
             <label for="exampleFormControlTextarea1" class="form-label">Comentario:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required maxlength="240"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required minlength="2" maxlength="240"></textarea>
           </div>
           <div class="col-12">
             <button class="btn btn-primary" type="submit">Enviar comentario</button>

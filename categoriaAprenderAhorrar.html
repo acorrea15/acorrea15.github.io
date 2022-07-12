@@ -160,7 +160,7 @@
           </div>
           <div class="modal-body">
             Ingrese su correo electrónico para recibir notificaciones
-            <form>
+            <form onsubmit="window.location='./error404.html'; return false">
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label"
                   ><strong>Dirección de e-mail:</strong> </label
@@ -185,6 +185,7 @@
     </div>
     <!-- Fin Navbar - Alfredo Correa -->
 
+
     <!-- Inicio página principal - Alfredo Correa -->
     <main class="bg-mainlg">
 
@@ -192,14 +193,24 @@
 
       
       <div class="container">
-      <!-- Inicio - Formulario de búsqueda -->
-      <div class=aside-form-buscar-sm>
-        <form class="d-flex mt-1" role="search">
-          <input class="form-control me-2" type="search" placeholder="Buscar artículos" aria-label="Search">
-          <button class="btn btn-outline-primary" type="submit">Buscar</button>
-        </form>
-      </div>
-      <!-- Fin - Formulario de búsqueda -->
+        <!-- Inicio - Formulario de búsqueda -->
+        <div class="aside-form-buscar-sm">
+          <form class="d-flex mt-1" role="search" onsubmit="window.location='./error404.html'; return false">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar artículos"
+              aria-label="Search"
+              minlength="3"
+              maxlength="30"
+              required
+            />
+            <button class="btn btn-outline-primary" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+        <!-- Fin - Formulario de búsqueda -->
 
         <div class="mt-1 row">
 
@@ -220,9 +231,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>30</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>30</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">La importancia de la educación financiera para vos y tu entorno</h5>
@@ -250,9 +261,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>42</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>02</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>42</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>02</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">¿Qué son las finanzas personales y cómo pueden ayudarte?</h5>
@@ -279,9 +290,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>87</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>87</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">Consejos para sobrevivir a la incesante inflación en Argentina</h5>
@@ -307,9 +318,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>09</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>09</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">Descubrí los beneficios de estar al día con tu crédito</h5>
@@ -334,9 +345,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>23</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>23</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">Cuál es la diferencia entre tarjeta de crédito y débito</h5>
@@ -361,9 +372,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>42</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>42</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">Ingresos y egresos: todo para armar tu plan de gastos</h5>
@@ -388,9 +399,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>09</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>09</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">Debin: qué es y cómo usarlo para ingresar dinero a tu cuenta</h5>
@@ -415,9 +426,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>23</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>23</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">Objetivos financieros: la clave para cumplir todos tus proyectos</h5>
@@ -442,9 +453,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>30</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>30</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">¿Cómo ahorrar en vacaciones?</h5>
@@ -469,9 +480,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>23</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>23</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">La importancia de ahorrar desde el primer empleo</h5>
@@ -496,9 +507,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>42</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>42</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">Diferencias entre la tarjeta de crédito y débito?</h5>
@@ -523,9 +534,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>87</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>87</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">¿Estás manejando bien tus finanzas?</h5>
@@ -550,9 +561,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>30</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>30</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">¿Cómo enseñarles el hábito de ahorrar a los más chicos?</h5>
@@ -577,9 +588,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>09</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>09</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">¿Necesitás hacer un regalo y no te alcanza la plata?</h5>
@@ -604,9 +615,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>42</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>42</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">¿Cómo combatir la inflación?</h5>
@@ -631,9 +642,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>87</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>87</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">Conceptos básicos para aprender economía</h5>
@@ -658,9 +669,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>30</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>30</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">Jugá como un experto: 5 hábitos para ahorrar</h5>
@@ -685,9 +696,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>09</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>09</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">5 grandes desafíos de los gastos comunes</h5>
@@ -712,9 +723,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>23</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>23</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">Alquilar y ahorrar es posible: seguí estas recomendaciones</h5>
@@ -739,9 +750,9 @@
                     <p class="article-category mt-1"> <i class="fa-solid fa-sack-dollar"></i> Aprender a ahorrar</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>31</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>31</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>05</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">¿Se te va la plata y no sabés en qué?</h5>
@@ -786,17 +797,17 @@
                     <div>
                       <ul class="right-area social-icons ul-social-icons">
                         <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
+                          <a href="./error404.html" class="a-social-icons"
                             ><i class="fa-solid fa-share-nodes"></i>Compartir</a
                           >
                         </li>
                         <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
+                          <a href="./error404.html" class="a-social-icons"
                             ><i class="fa-regular fa-heart"></i>256</a
                           >
                         </li>
                         <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
+                          <a href="./error404.html" class="a-social-icons"
                             ><i class="fa-regular fa-message"></i>03</a
                           >
                         </li>
@@ -833,17 +844,17 @@
                     <div>
                       <ul class="right-area social-icons ul-social-icons">
                         <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
+                          <a href="./error404.html" class="a-social-icons"
                             ><i class="fa-solid fa-share-nodes"></i>Compartir</a
                           >
                         </li>
                         <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
+                          <a href="./error404.html" class="a-social-icons"
                             ><i class="fa-regular fa-heart"></i>324</a
                           >
                         </li>
                         <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
+                          <a href="./error404.html" class="a-social-icons"
                             ><i class="fa-regular fa-message"></i>02</a
                           >
                         </li>
@@ -872,10 +883,20 @@
             <aside>
 
               <!-- Inicio - Formulario de búsqueda -->
-              <div class=aside-form-buscar-lg>
-                <form class="d-flex mt-5" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Buscar artículos" aria-label="Search">
-                  <button class="btn btn-outline-primary" type="submit">Buscar</button>
+              <div class="aside-form-buscar-lg">
+                <form class="d-flex mt-5" role="search" onsubmit="window.location='./error404.html'; return false">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Buscar artículos"
+                    aria-label="Search"
+                    minlength="3"
+                    maxlength="30"
+                    required
+                  />
+                  <button class="btn btn-outline-primary" type="submit">
+                    Buscar
+                  </button>
                 </form>
               </div>
               <!-- Fin - Formulario de búsqueda -->

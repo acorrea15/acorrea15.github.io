@@ -147,7 +147,7 @@
           </div>
           <div class="modal-body">
             Ingrese su correo electrónico para recibir notificaciones
-            <form>
+            <form onsubmit="window.location='./error404.html'; return false">
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label"
                   ><strong>Dirección de e-mail:</strong> </label
@@ -171,6 +171,9 @@
       </div>
     </div>
     <!-- Fin Navbar - Alfredo Correa -->
+
+
+
 
     <!-- Inicio página principal - Alfredo Correa -->
     <main class="bg-mainlg">
@@ -316,10 +319,20 @@
       
       <div class="container">
         <!-- Inicio - Formulario de búsqueda -->
-        <div class=aside-form-buscar-sm>
-          <form class="d-flex mt-1" role="search">
-            <input class="form-control me-2" type="search" placeholder="Buscar artículos" aria-label="Search">
-            <button class="btn btn-outline-primary" type="submit">Buscar</button>
+        <div class="aside-form-buscar-sm">
+          <form class="d-flex mt-1" role="search" onsubmit="window.location='./error404.html'; return false">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar artículos"
+              aria-label="Search"
+              minlength="3"
+              maxlength="30"
+              required
+            />
+            <button class="btn btn-outline-primary" type="submit">
+              Buscar
+            </button>
           </form>
         </div>
         <!-- Fin - Formulario de búsqueda -->
@@ -344,9 +357,9 @@
                     <p class="article-category mt-1"> <i class="fa-brands fa-bitcoin"></i> Criptomonedas</p>
                     <div>
                         <ul class="right-area social-icons ul-social-icons">
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-heart"></i>23</a></li>
-                          <li class="li-social-icons"><a href="#" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-solid fa-share-nodes"></i>Compartir</a></li>                         
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-heart"></i>23</a></li>
+                          <li class="li-social-icons"><a href="./error404.html" class="a-social-icons"><i class="fa-regular fa-message"></i>01</a></li>
                         </ul>
                     </div>
                     <h5 class="card-title">¿Qué son y para qué sirven las Criptomonedas?</h5>
@@ -390,17 +403,17 @@
                     <div>
                       <ul class="right-area social-icons ul-social-icons">
                         <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
+                          <a href="./error404.html" class="a-social-icons"
                             ><i class="fa-solid fa-share-nodes"></i>Compartir</a
                           >
                         </li>
                         <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
+                          <a href="./error404.html" class="a-social-icons"
                             ><i class="fa-regular fa-heart"></i>256</a
                           >
                         </li>
                         <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
+                          <a href="./error404.html" class="a-social-icons"
                             ><i class="fa-regular fa-message"></i>03</a
                           >
                         </li>
@@ -437,17 +450,17 @@
                     <div>
                       <ul class="right-area social-icons ul-social-icons">
                         <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
+                          <a href="./error404.html" class="a-social-icons"
                             ><i class="fa-solid fa-share-nodes"></i>Compartir</a
                           >
                         </li>
                         <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
+                          <a href="./error404.html" class="a-social-icons"
                             ><i class="fa-regular fa-heart"></i>324</a
                           >
                         </li>
                         <li class="li-social-icons">
-                          <a href="#" class="a-social-icons"
+                          <a href="./error404.html" class="a-social-icons"
                             ><i class="fa-regular fa-message"></i>02</a
                           >
                         </li>
@@ -476,10 +489,20 @@
             <aside>
 
               <!-- Inicio - Formulario de búsqueda -->
-              <div class=aside-form-buscar-lg>
-                <form class="d-flex mt-5" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Buscar artículos" aria-label="Search">
-                  <button class="btn btn-outline-primary" type="submit">Buscar</button>
+              <div class="aside-form-buscar-lg">
+                <form class="d-flex mt-5" role="search" onsubmit="window.location='./error404.html'; return false">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Buscar artículos"
+                    aria-label="Search"
+                    minlength="3"
+                    maxlength="30"
+                    required
+                  />
+                  <button class="btn btn-outline-primary" type="submit">
+                    Buscar
+                  </button>
                 </form>
               </div>
               <!-- Fin - Formulario de búsqueda -->
